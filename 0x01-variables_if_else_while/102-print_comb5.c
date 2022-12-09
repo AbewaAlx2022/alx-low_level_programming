@@ -20,7 +20,6 @@ int main(void)
 				putchar(' ');
 				putchar(j / 10 + '0');
 				putchar(j % 10 + '0');
-				
 				if (i * 100 + j != 9899)
 				{
 					putchar(',');
