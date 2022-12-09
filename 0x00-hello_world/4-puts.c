@@ -1,9 +1,10 @@
 #include <stdio.h>
 
 /**
- * mai - print a given phrase
- * Return: 0 if exited properly, otherwise non-zero
-*/
+ * main - Entry point
+ * 
+ * Return: Always 0 (Success)
+ */
 
 int main (void)
 {  
