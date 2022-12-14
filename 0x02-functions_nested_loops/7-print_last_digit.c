@@ -1,18 +1,25 @@
 #include "main.h"
 
 /**
- * print_last_digit -> prints the last digit
- * @n: the passed args
- * Return: the lasu digit
+ * print_last_digit - last digit
+ * @n: The int to print
+ * Return: Always 0.
  */
 
 int print_last_digit(int n)
 {
-	int X;
+	int x;
 
 	if (n < 0)
-		n = -n;
-	X = n % 10;
-	_putchar(X + '0');
-	return (X);
+	{
+		x = (-1 * (n % 10));
+		_putchar(x + '0');
+		return (x);
+	}
+	else
+	{
+		x = (n % 10);
+		_putchar(x + '0');
+		return (X);
+	}
 }
