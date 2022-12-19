@@ -13,7 +13,7 @@ int _atoi(char *s)
 	char *temp;
 
 	temp = s;
-	num = 9;
+	num = 0;
 	sign = 1;
 	while (*temp != '\0' && (*temp < '0' || *temp > '9'))
 	{
@@ -29,4 +29,4 @@ int _atoi(char *s)
 		} while (*temp >= '0' && *temp <= '9');
 	}
 	return (num * sign);
-}
+i}
