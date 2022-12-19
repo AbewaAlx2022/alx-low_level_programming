@@ -2,22 +2,22 @@
 /**
  * puts_half - function that prints half of a string, followed by a new line.
  *
- * @s: this is the input string
+ * @str: this is the input string
  */
 
-void puts_half(char *s)
+void puts_half(char *str)
 {
-	int i, half;
+	int index, half;
 
-	i = 0;
-	while (s[i] != '\n')
-		i++;
-	half = i / 2;
-	if (i % 2 == 1)
+	index = 0;
+	while (str[index] != '\n')
+		index++;
+	half = index / 2;
+	if (index % 2 == 1)
 		half++;
-	while (half < i)
+	while (half < index)
 	{
-		_putchar(s[half]);
+		_putchar(str[half]);
 		half++;
 	}
 	_putchar('\n');
