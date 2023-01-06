@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - The progrm that maultiplies two numbers
+ * main - The program that multiplies two numbers
  * @argc: The argument count
  * @argv: The argument vector
  *
