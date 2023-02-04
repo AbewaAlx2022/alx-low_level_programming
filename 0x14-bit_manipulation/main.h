@@ -1,5 +1,3 @@
-MAIN.H
-
 #ifndef MAIN_H
 #define MAIN_H
 
@@ -13,4 +11,4 @@ int _atoi(const char *s);
 int _putchar(char c);
 int get_endianness(void);
 
-#endi
+#endif
